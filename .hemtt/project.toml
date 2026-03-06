@@ -1,0 +1,43 @@
+name = "[A3UE] Fortify Tool Enabled"
+author = "StepanKo101"
+prefix = "fte"
+mainprefix = "z"
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0
+
+[hemtt.launch.default]
+
+mission = "bftest.Stratis"
+
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+    "-filePatching",
+]
+
+executable = "arma3_x64"
+file_patching = true
+binarize = false
+rapify = true
+
+[hemtt.launch.cba]
+
+extends = "default"
+
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]
+
+[hemtt.launch.ace]
+
+estends = "cba"
+
+workshop = [
+    "463939057", # ACE3's Workshop ID
+]
