@@ -11,7 +11,7 @@ build = 0
 
 [hemtt.launch.default]
 
-mission = "bftest.Stratis"
+# mission = "bftest.Stratis"
 
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
@@ -36,8 +36,17 @@ workshop = [
 
 [hemtt.launch.ace]
 
-estends = "cba"
+extends = "cba"
 
 workshop = [
     "463939057", # ACE3's Workshop ID
+]
+
+[hemtt.launch.au]
+
+extends = "ace"
+
+workshop = [
+    "3020755032", # Antistasi Ultimate's Workshop ID
+    "1779063631", # Zeus Enhanced's Workshop ID
 ]
