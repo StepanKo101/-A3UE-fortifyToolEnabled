@@ -5,4 +5,4 @@ systemChat format ["Player money: %1", _playerMoney];
 
 [west, -250, false] call ace_fortify_fnc_updateBudget
 
-
+[independent, 0, ]

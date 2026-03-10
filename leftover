@@ -1,0 +1,7 @@
+		[] remoteExec ["moduleHandler.sqf", 2];
+		//_module = nil; // clear module variable to prevent multiple modules from spawning
+		//_module = createVehicle ["acex_fortify_setupModule", position _player, [], 0, "NONE"]; // spawn fortify module
+		//systemChat format ["Fortify module created at %1", position _player];
+		_module setVariable ["preset", "Defense_Preset"];
+		_module setVariable ["side", independent]; // set module side to independent
+		systemChat "Defense Preset selected"; // placeholder for defense preset
