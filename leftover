@@ -5,3 +5,13 @@
 		_module setVariable ["preset", "Defense_Preset"];
 		_module setVariable ["side", independent]; // set module side to independent
 		systemChat "Defense Preset selected"; // placeholder for defense preset
+
+				"acex_fortify_setupModule" createUnit [
+			_spawnPos, 
+			_moduleGroup, 
+			"this setVariable ['BIS_fnc_initModules_disableAutoActivation', false, true];
+			 this setVariable ['Side', Independent, true];
+			 this setVariable ['Budget', 0, true];
+			 this setVariable ['Presets', 'Utility_Preset', true];
+			 Module = this;
+			 "];
