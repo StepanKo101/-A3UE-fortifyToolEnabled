@@ -17,7 +17,7 @@ class CfgFunctions
                 preInit = 0;
                 postInit = 0;
             };
-
+            /*
             class moduleHandler
             {
                 file = "z\fte\addons\main\functions\moduleHandler.sqf";
@@ -25,7 +25,7 @@ class CfgFunctions
                 postInit = 0;
             };
 
-            /*class UtilPresetLauncher
+            class UtilPresetLauncher
             {
                 file = "z\fte\addons\main\functions\utilPreset.sqf";
                 preInit = 0;

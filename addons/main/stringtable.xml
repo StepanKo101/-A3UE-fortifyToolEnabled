@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Convert_100">
+            <English>Convert $100</English>
+            <Russian>Конвертировать $100</Russian>
+        </Key>
+        <Key ID="STR_FTE_Convert_25">
+            <English>Convert $25</English>
+            <Russian>Конвертировать $25</Russian>
+        </Key>
+        <Key ID="STR_FTE_Convert_50">
+            <English>Convert $50</English>
+            <Russian>Конвертировать $50</Russian>
+        </Key>
+        <Key ID="STR_FTE_Defense_Preset">
+            <English>Activate Defense Preset</English>
+            <Russian>Оборонительный пресет</Russian>
+        </Key>
+        <Key ID="STR_FTE_Fortify_Main">
+            <English>Antistasi Fortify</English>
+            <Russian>Antistasi Fortify</Russian>
+        </Key>
+        <Key ID="STR_FTE_Utility_Preset">
+            <English>Activate Utility Preset</English>
+            <Russian>Пресет полезностей</Russian>
+        </Key>
+    </Package>
+</Project>

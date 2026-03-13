@@ -10,6 +10,7 @@
 params ["_player", "_amount"];
 
 _playerMoney = _player getVariable "moneyX"; // save player money
+_lang = language;
 
 if (_playerMoney >= _amount) then {
     _player setVariable ["moneyX", _playerMoney - _amount]; // deduct money from player
@@ -28,7 +29,15 @@ if (_playerMoney >= _amount) then {
         };
     };
     [] spawn A3A_fnc_statistics; // update statistics
-    systemChat format ["Converted $%1 to fortify budget. Remaining money: $%2", _amount, _player getVariable "moneyX"]; // redo
+    if (_lang == "Russian") then {
+        systemChat format ["Токены добавлены в инвентарь."];
+    } else {
+        systemChat format ["Tokens were added to inventory."];
+    };
 } else {
-    systemChat "Not enough money to convert.";
+    if (_lang == "Russian") then {
+        systemChat "Недостаточно денег.";
+    } else {
+        systemChat "Not enough money.";
+    };
 };

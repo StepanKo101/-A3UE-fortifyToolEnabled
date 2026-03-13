@@ -1,6 +1,6 @@
-#include "actions.cpp"
-#include "functions.cpp"
-#include "presets.cpp"
+#include "actions.hpp"
+#include "functions.hpp"
+#include "presets.hpp"
 
 class CfgPatches
 {

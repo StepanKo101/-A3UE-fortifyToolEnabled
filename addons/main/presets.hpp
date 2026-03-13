@@ -1,4 +1,8 @@
-// Left unused. It was WAY easier to just hardcode the presets in the presetPicker function, and I don't want to add the extra complexity of parsing the preset class for now. If we want to add more presets in the future, we can always add them to the presetPicker function.
+/* 
+Left unused. 
+It was WAY easier to just hardcode the presets in the presetPicker function.
+I don't want to add the extra complexity of parsing the preset class for now. 
+*/
 
 class ACEX_Fortify_Presets
 {
