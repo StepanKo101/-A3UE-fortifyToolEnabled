@@ -1,19 +1,18 @@
-#include "actions.hpp"
-#include "functions.hpp"
-#include "presets.hpp"
-
 class CfgPatches
 {
-    class fte_Main
+    class fte_main
     {
         name = "Fortify Tool Enabled - Main";
         author = "StepanKo101";
         url = "";
 
         requiredVersion = 0.50;
-        requiredAddons[] = {};
+        requiredAddons[] = {"A3A_core", "ace_common"}; 
 
         units[] = {};
         weapons[] = {};
     };
 };
+
+#include "converting.hpp"
+#include "functions.hpp"

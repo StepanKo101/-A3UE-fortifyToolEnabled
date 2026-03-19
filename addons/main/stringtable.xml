@@ -25,5 +25,9 @@
             <English>Activate Utility Preset</English>
             <Russian>Пресет полезностей</Russian>
         </Key>
+        <Key ID="STR_FTE_Utility_Preset_CUP">
+            <English>Activate CUP Utility Preset</English>
+            <Russian>Пресет полезностей CUP</Russian>
+        </Key>
     </Package>
 </Project>

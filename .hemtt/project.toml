@@ -10,9 +10,7 @@ patch = 0
 build = 0
 
 [hemtt.launch.default]
-
-# mission = "bftest.Stratis"
-
+mission = "bftest.Stratis"
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
     "-noSplash",            # They do not need to be added to your list
@@ -20,41 +18,60 @@ parameters = [
     "-debug",
     "-filePatching",
 ]
-
 executable = "arma3_x64"
 file_patching = true
 binarize = false
 rapify = true
 
-[hemtt.launch.cba]
-
+# custom configs
+[hemtt.launch.cba] # CBA
 extends = "default"
-
 workshop = [
     "450814997", # CBA_A3's Workshop ID
 ]
 
-[hemtt.launch.ace]
-
+[hemtt.launch.ace] # CBA + ACE3
 extends = "cba"
-
 workshop = [
     "463939057", # ACE3's Workshop ID
 ]
 
-[hemtt.launch.au]
-
+[hemtt.launch.au] # CBA + ACE3 + Antistasi Ultimate + Zeus Enhanced
 extends = "ace"
-
 workshop = [
     "3020755032", # Antistasi Ultimate's Workshop ID
     "1779063631", # Zeus Enhanced's Workshop ID
 ]
 
-[hemtt.launch.au_tem]
-
+[hemtt.launch.au_tem] # CBA + ACE3 + Antistasi Ultimate + Tembelan Island
 extends = "au"
-
 workshop = [
     "1252091296", # Tembelan Island's Workshop ID
+]
+
+[hemtt.launch.cupcore] # CBA + ACE3 + CUP Core
+extends = "ace"
+mission = "fteObjects.VR"
+workshop = [
+    "583496184", # CUP Core Mod's Workshop ID
+]
+
+[hemtt.launch.ifa] # CBA + ACE3 + IFA3
+extends = "cupcore"
+workshop = [
+    "2648308937", # IFA3's Workshop ID
+]
+
+[hemtt.launch.ifa_au] # CBA + ACE3 + IFA3 + Antistasi Ultimate + Zeus Enhanced
+extends = "ifa"
+workshop = [
+    "3020755032", # Antistasi Ultimate's Workshop ID
+    "1779063631", # Zeus Enhanced's Workshop ID
+]
+
+[hemtt.launch.cup_au] # CBA + ACE3 + CUP Core + Antistasi Ultimate + Zeus Enhanced
+extends = "cupcore"
+workshop = [
+    "3020755032", # Antistasi Ultimate's Workshop ID
+    "1779063631", # Zeus Enhanced's Workshop ID
 ]
