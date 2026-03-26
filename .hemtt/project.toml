@@ -10,7 +10,7 @@ patch = 0
 build = 0
 
 [hemtt.launch.default]
-mission = "bftest.Stratis"
+# mission = "bftest.Stratis"
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
     "-noSplash",            # They do not need to be added to your list
@@ -51,7 +51,7 @@ workshop = [
 
 [hemtt.launch.cupcore] # CBA + ACE3 + CUP Core
 extends = "ace"
-mission = "fteObjects.VR"
+# mission = "fteObjects.VR"
 workshop = [
     "583496184", # CUP Core Mod's Workshop ID
 ]

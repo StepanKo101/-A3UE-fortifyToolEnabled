@@ -12,6 +12,7 @@ class CfgPatches
 
         requiredVersion = 0.50;
         requiredAddons[] = {"fte_main", "CUP_Core"}; 
+        skipWhenMissingDependencies = 1;
 
         units[] = {};
         weapons[] = {};

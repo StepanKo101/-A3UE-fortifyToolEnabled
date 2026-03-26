@@ -17,6 +17,13 @@ class CfgFunctions
                 preInit = 0;
                 postInit = 0;
             };
+
+            class Saver
+            {
+                file = "z\fte\addons\main\functions\saver.sqf";
+                preInit = 0;
+                postInit = 1;
+            };
             /*
             class moduleHandler
             {
