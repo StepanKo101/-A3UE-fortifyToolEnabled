@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Fortify_Main">
+            <English>Antistasi Fortify</English>
+            <Russian>Antistasi Fortify</Russian>
+        </Key>
+        <Key ID="STR_FTE_Utility_Preset_CUP">
+            <English>Activate CUP Utility Preset</English>
+            <Russian>Пресет полезностей CUP</Russian>
+        </Key>
+    </Package>
+</Project>

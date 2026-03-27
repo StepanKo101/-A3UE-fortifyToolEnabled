@@ -1,36 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="YourMod">
     <Package name="Fortify">
-
-        <Key ID="STR_FTE_Fortify_Main">
-            <English>Antistasi Fortify</English>
-            <Russian>Antistasi Fortify</Russian>
-        </Key>
-
-        <Key ID="STR_FTE_Convert_25">
-            <English>Convert $25</English>
-            <Russian>Конвертировать $25</Russian>
-        </Key>
-
-        <Key ID="STR_FTE_Convert_50">
-            <English>Convert $50</English>
-            <Russian>Конвертировать $50</Russian>
-        </Key>
-
         <Key ID="STR_FTE_Convert_100">
             <English>Convert $100</English>
             <Russian>Конвертировать $100</Russian>
         </Key>
-
-        <Key ID="STR_FTE_Utility_Preset">
-            <English>Activate Utility Preset</English>
-            <Russian>Пресет полезностей</Russian>
+        <Key ID="STR_FTE_Convert_25">
+            <English>Convert $25</English>
+            <Russian>Конвертировать $25</Russian>
         </Key>
-
+        <Key ID="STR_FTE_Convert_50">
+            <English>Convert $50</English>
+            <Russian>Конвертировать $50</Russian>
+        </Key>
         <Key ID="STR_FTE_Defense_Preset">
             <English>Activate Defense Preset</English>
             <Russian>Оборонительный пресет</Russian>
         </Key>
-
+        <Key ID="STR_FTE_Fortify_Main">
+            <English>Antistasi Fortify</English>
+            <Russian>Antistasi Fortify</Russian>
+        </Key>
+        <Key ID="STR_FTE_Utility_Preset">
+            <English>Activate Utility Preset</English>
+            <Russian>Пресет полезностей</Russian>
+        </Key>
+        <Key ID="STR_FTE_Utility_Preset_CUP">
+            <English>Activate CUP Utility Preset</English>
+            <Russian>Пресет полезностей CUP</Russian>
+        </Key>
+        
+        
+        <Key ID="STR_FTE_Preset_Outdoor">
+            <English>Outdoor Decorations</English>
+            <Russian>Уличный декор</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Indoor">
+            <English>Indoor Decorations</English>
+            <Russian>Мебель</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Construction1">
+            <English>Construction Site #1</English>
+            <Russian>Стройка #1</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Construction2">
+            <English>Construction Site #2</English>
+            <Russian>Стройка #2</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Food">
+            <English>Food items</English>
+            <Russian>Еда, вода</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Sport">
+            <English>Sport Equipment</English>
+            <Russian>Спорт инвентарь</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_MiscSmall">
+            <English>Miscellaneous Small</English>
+            <Russian>Разная мелочёвка</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Electronics1">
+            <English>Electronics #1</English>
+            <Russian>Электроника #1</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Electronics2">
+            <English>Electronics #2</English>
+            <Russian>Электроника #2</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_MiscBig">
+            <English>Miscellaneous Big</English>
+            <Russian>Разное</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_Planters">
+            <English>CUP Planters and Pots</English>
+            <Russian>CUP Горшки и клумбы</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_Bushes">
+            <English>CUP Bushes</English>
+            <Russian>CUP Кусты</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_SmallPlants">
+            <English>CUP Small Plants</English>
+            <Russian>CUP Горшочные растения</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_Trees">
+            <English>CUP Trees</English>
+            <Russian>CUP Деревья</Russian>
+        </Key>
     </Package>
 </Project>

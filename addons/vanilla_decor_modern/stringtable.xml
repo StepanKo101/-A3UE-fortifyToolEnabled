@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Decorations_Button">
+            <English>Decorations</English>
+            <Russian>Декорации</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Electronics1">
+            <English>Electronics #1</English>
+            <Russian>Электроника #1</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Electronics2">
+            <English>Electronics #2</English>
+            <Russian>Электроника #2</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_MiscBig">
+            <English>Miscellaneous Big</English>
+            <Russian>Разное</Russian>
+        </Key>
+    </Package>
+</Project>

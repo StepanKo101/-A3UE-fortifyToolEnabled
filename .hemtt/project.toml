@@ -31,6 +31,7 @@ workshop = [
 ]
 
 [hemtt.launch.ace] # CBA + ACE3
+mission = "fteDecorations.VR"
 extends = "cba"
 workshop = [
     "463939057", # ACE3's Workshop ID
@@ -51,12 +52,13 @@ workshop = [
 
 [hemtt.launch.cupcore] # CBA + ACE3 + CUP Core
 extends = "ace"
-# mission = "fteObjects.VR"
+mission = "fteDecorationsCUP.VR"
 workshop = [
     "583496184", # CUP Core Mod's Workshop ID
 ]
 
 [hemtt.launch.ifa] # CBA + ACE3 + IFA3
+mission = "fteDecorationsIFA.VR"
 extends = "cupcore"
 workshop = [
     "2648308937", # IFA3's Workshop ID

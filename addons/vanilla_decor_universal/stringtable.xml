@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Preset_Construction1">
+            <English>Construction Site #1</English>
+            <Russian>Стройка #1</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Construction2">
+            <English>Construction Site #2</English>
+            <Russian>Стройка #2</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Food">
+            <English>Food items</English>
+            <Russian>Еда, вода</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Indoor">
+            <English>Indoor Decorations</English>
+            <Russian>Мебель</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_MiscSmall">
+            <English>Miscellaneous Small</English>
+            <Russian>Разная мелочёвка</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Outdoor">
+            <English>Outdoor Decorations</English>
+            <Russian>Уличный декор</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_Sport">
+            <English>Sport Equipment</English>
+            <Russian>Спорт инвентарь</Russian>
+        </Key>
+    </Package>
+</Project>

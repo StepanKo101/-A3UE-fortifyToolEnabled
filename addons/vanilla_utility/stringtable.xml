@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Utility_Preset">
+            <English>Activate Utility Preset</English>
+            <Russian>Пресет полезностей</Russian>
+        </Key>
+    </Package>
+</Project>

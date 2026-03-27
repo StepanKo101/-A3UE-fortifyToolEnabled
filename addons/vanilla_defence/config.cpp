@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class fte_vanilla
+    class fte_vanillaDefence
     {
         name = "Fortify Tool Enabled - Vanilla";
         author = "StepanKo101";
@@ -8,11 +8,11 @@ class CfgPatches
 
         requiredVersion = 0.50;
         requiredAddons[] = {"fte_main"}; 
-        skipWhenAnyAddonPresent[] = {"CUP_Core"};
+        //skipWhenAnyAddonPresent[] = {"CUP_Core"};
 
         units[] = {};
         weapons[] = {};
     };
 };
 
-#include "vanillaPresets.hpp"
+#include "vanillaDefence.hpp"

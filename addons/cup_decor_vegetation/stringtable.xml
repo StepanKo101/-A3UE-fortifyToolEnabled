@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_Preset_CUP_Bushes">
+            <English>CUP Bushes</English>
+            <Russian>CUP Кусты</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_Planters">
+            <English>CUP Planters and Pots</English>
+            <Russian>CUP Горшки и клумбы</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_SmallPlants">
+            <English>CUP Small Plants</English>
+            <Russian>CUP Горшочные растения</Russian>
+        </Key>
+        <Key ID="STR_FTE_Preset_CUP_Trees">
+            <English>CUP Trees</English>
+            <Russian>CUP Деревья</Russian>
+        </Key>
+    </Package>
+</Project>

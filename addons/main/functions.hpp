@@ -24,34 +24,6 @@ class CfgFunctions
                 preInit = 0;
                 postInit = 1;
             };
-            /*
-            class moduleHandler
-            {
-                file = "z\fte\addons\main\functions\moduleHandler.sqf";
-                preInit = 0;
-                postInit = 0;
-            };
-
-            class UtilPresetLauncher
-            {
-                file = "z\fte\addons\main\functions\utilPreset.sqf";
-                preInit = 0;
-                postInit = 0;
-            };
-
-            class DefensePresetLauncher
-            {
-                file = "z\fte\addons\main\functions\defensePreset.sqf";
-                preInit = 0;
-                postInit = 0;
-            };
-
-            class WaterPresetLauncher
-            {
-                file = "z\fte\addons\main\functions\waterPreset.sqf";
-                preInit = 0;
-                postInit = 0;
-            };*/
         };
     };
 };

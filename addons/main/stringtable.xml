@@ -13,21 +13,5 @@
             <English>Convert $50</English>
             <Russian>Конвертировать $50</Russian>
         </Key>
-        <Key ID="STR_FTE_Defense_Preset">
-            <English>Activate Defense Preset</English>
-            <Russian>Оборонительный пресет</Russian>
-        </Key>
-        <Key ID="STR_FTE_Fortify_Main">
-            <English>Antistasi Fortify</English>
-            <Russian>Antistasi Fortify</Russian>
-        </Key>
-        <Key ID="STR_FTE_Utility_Preset">
-            <English>Activate Utility Preset</English>
-            <Russian>Пресет полезностей</Russian>
-        </Key>
-        <Key ID="STR_FTE_Utility_Preset_CUP">
-            <English>Activate CUP Utility Preset</English>
-            <Russian>Пресет полезностей CUP</Russian>
-        </Key>
     </Package>
 </Project>

@@ -1,12 +1,12 @@
 /*
-    These presets are used instead of vanilla ones in case CUP core is present.
+    Adds vegetation and planters
 */
 
 class CfgPatches
 {
-    class fte_compat_cupcore
+    class CupDecorVegetation
     {
-        name = "Fortify Tool Enabled - CUP Core Compatibility";
+        name = "Fortify Tool Enabled - CUP Decor Vegetation";
         author = "StepanKo101";
         url = "";
 
@@ -18,4 +18,4 @@ class CfgPatches
         weapons[] = {};
     };
 };
-#include "CUP_Presets.hpp"
+#include "cup_decor_vegetation.hpp"
