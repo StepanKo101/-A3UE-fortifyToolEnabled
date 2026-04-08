@@ -2,7 +2,7 @@
 <Project name="YourMod">
     <Package name="Fortify">
         <Key ID="STR_FTE_Defence_Preset">
-            <English>Activate Defense Preset</English>
+            <English>Activate Defence Preset</English>
             <Russian>Оборонительный пресет</Russian>
         </Key>
     </Package>

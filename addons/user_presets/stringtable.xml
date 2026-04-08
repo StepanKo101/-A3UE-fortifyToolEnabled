@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="YourMod">
+    <Package name="Fortify">
+        <Key ID="STR_FTE_User_1">
+            <English>Activate User Preset 1</English>
+            <Russian>Пользовательский пресет 1</Russian>
+        </Key>
+        <Key ID="STR_FTE_User_2">
+            <English>Activate User Preset 2</English>
+            <Russian>Пользовательский пресет 2</Russian>
+        </Key>
+        <Key ID="STR_FTE_User_3">
+            <English>Activate User Preset 3</English>
+            <Russian>Пользовательский пресет 3</Russian>
+        </Key>
+    </Package>
+</Project>

@@ -5,13 +5,7 @@ To add self-interaction action go to actions.cpp
 
 params ["_player", "_preset"];
 
-/*
-	1 = util, 2 = defense, 3 = watercross
-
-Module = objNull;
-_spawnPos = [0,0,0];
-_moduleGroup = createGroup sideLogic;
-*/
+_lang = language;
 
 switch (_preset) do {
 	case 1: { // vanilla utility
@@ -262,5 +256,82 @@ switch (_preset) do {
 			["CUP_t_picea1s", 5],
 			["CUP_les_singlestrom", 5]
 		]] call ace_fortify_fnc_registerObjects;
+	};
+
+	// user defined presets part
+
+	case 18: { // User preset 1 
+		_rawPreset1 = FTE_UserPreset1Classes; 
+		_userPreset1 = parseSimpleArray _rawPreset1; // convert to array
+		// Check if user added classes to editbox
+		if (_rawPreset1 == "") exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Проверь настройки аддона, ты забыл добавить классы в пресет.";
+			} else {
+				systemChat "You forgot to add stuff. Go to addon options.";
+			};
+		};
+		// not-so-reliable check if user managed to input valid syntax
+		if (count _userPreset1 == 0) exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Нихуя не работает и я не знаю почему, давай заново.";
+			} else {
+				systemChat "You fucked up. It is not working. Dunno y lol";
+			};
+		};
+
+		[independent, 0, 
+		_userPreset1 // inject array voila
+		] call ace_fortify_fnc_registerObjects;
+	};
+
+	case 19: { // User preset 2
+		_rawPreset2 = FTE_UserPreset2Classes; 
+		_userPreset2 = parseSimpleArray _rawPreset2; // convert to array
+		// Check if user added classes to editbox
+		if (_rawPreset2 == "") exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Проверь настройки аддона, ты забыл добавить классы в пресет.";
+			} else {
+				systemChat "You forgot to add stuff. Go to addon options.";
+			};
+		};
+		// not-so-reliable check if user managed to input valid syntax
+		if (count _userPreset2 == 0) exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Нихуя не работает и я не знаю почему, давай заново.";
+			} else {
+				systemChat "You fucked up. It is not working. Dunno y lol";
+			};
+		};
+
+		[independent, 0, 
+		_userPreset2 // inject array voila
+		] call ace_fortify_fnc_registerObjects;
+	};
+
+	case 20: { // User preset 3
+		_rawPreset3 = FTE_UserPreset3Classes; 
+		_userPreset3 = parseSimpleArray _rawPreset3; // convert to array
+		// Check if user added classes to editbox
+		if (_rawPreset3 == "") exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Проверь настройки аддона, ты забыл добавить классы в пресет.";
+			} else {
+				systemChat "You forgot to add stuff. Go to addon options.";
+			};
+		};
+		// not-so-reliable check if user managed to input valid syntax
+		if (count _userPreset3 == 0) exitWith {
+			if (_lang == "Russian") then {
+				systemChat "Нихуя не работает и я не знаю почему, давай заново.";
+			} else {
+				systemChat "You fucked up. It is not working. Dunno y lol";
+			};
+		};
+	
+		[independent, 0, 
+		_userPreset3 // inject array voila
+		] call ace_fortify_fnc_registerObjects;
 	};
 };

@@ -2,7 +2,7 @@ class CfgPatches
 {
     class fte_main
     {
-        name = "Fortify Tool Enabled - Main";
+        name = "Simple Fortifications & Decorations - Main";
         author = "StepanKo101";
         url = "";
 
@@ -16,3 +16,10 @@ class CfgPatches
 
 #include "converting.hpp"
 #include "functions.hpp"
+
+// asks the game to run preInit.sqf when game starts
+class Extended_PreInit_EventHandlers {
+    class FTE_Main {
+        init = "call compile preprocessFileLineNumbers '\z\fte\addons\main\preInit.sqf'";
+    };
+};

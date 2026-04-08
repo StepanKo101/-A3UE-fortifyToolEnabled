@@ -1,4 +1,4 @@
-name = "[A3UE] Fortify Tool Enabled"
+name = "[A3UE] Simple Fortifications & Decorations"
 author = "StepanKo101"
 prefix = "fte"
 mainprefix = "z"
@@ -31,7 +31,7 @@ workshop = [
 ]
 
 [hemtt.launch.ace] # CBA + ACE3
-mission = "fteDecorations.VR"
+#mission = "fteDecorations.VR"
 extends = "cba"
 workshop = [
     "463939057", # ACE3's Workshop ID

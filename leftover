@@ -15,3 +15,21 @@
 			 this setVariable ['Presets', 'Utility_Preset', true];
 			 Module = this;
 			 "];
+
+// user preset stuff
+
+		_tempText = FTE_UserPreset1Classes;
+		_array = parseSimpleArray _tempText;
+		[independent, 0, _array] call ace_fortify_fnc_registerObjects;
+		// _tempText = [_tempText, 1, count _tempText - 2] call BIS_fnc_trimString;
+		if (_tempText == "") exitWith {
+        	systemChat "User Preset is empty. Add classnames in Addon Options.";
+    	};
+		systemChat format ["User Preset 1 value: %1", _tempText];
+		_command = format ["[independent, 0, [%1]] call ace_fortify_fnc_registerObjects;", _tempText];
+		systemChat format ["Executing following command: %1", _command];
+		_code = compile _command;
+		systemChat format ["Variable type: %1", typeName _tempText];
+		call _code;
+		call compile format ["[independent, 0, [%1]] call ace_fortify_fnc_registerObjects", _tempText];
+		diag_log format ["FTE Debug: Attempting to register: %1", _tempText];
